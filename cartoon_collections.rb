@@ -17,7 +17,7 @@ end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.map {|string|string.length > 4}.any?
-  puts long_planeteer_calls
+  
   # Use an Enumerable to check if any string in the passed in array is greater than 4 characters long
   # Return the boolean result of this check
 end
